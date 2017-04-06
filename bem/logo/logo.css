@@ -1,0 +1,9 @@
+.logo {
+}
+
+.logo__link {
+    height: inherit;
+    display: block;
+
+    background-image: url('logo__link.png');
+}

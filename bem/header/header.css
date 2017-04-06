@@ -1,0 +1,35 @@
+.header {
+    padding-top: 120px;
+
+    height: 600px;
+    position: relative;
+
+    background-color: rgba(67, 87, 98, 0.85);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header__background {
+    position: absolute;
+    top: 0;
+    right:  0;
+    bottom: 0;
+    left: 0;
+
+    background-position: center top;
+    background-repeat: repeat-x;
+    background-image: url('header.jpg');
+
+    z-index: -1;
+}
+
+.header__logo {
+    margin: 0 auto;
+
+    width: 223px;
+    height: 69px;
+}
+
+.header__module-search {
+    margin-top: 35px;
+}

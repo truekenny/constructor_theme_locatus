@@ -1,0 +1,15 @@
+.button {
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.button_color_green {
+    background-color: #52d048;
+}
+
+.button_icon_search {
+    background-image: url('button_icon_search.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}

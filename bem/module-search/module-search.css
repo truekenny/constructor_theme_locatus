@@ -1,0 +1,23 @@
+.module-search__form {
+    margin: 0 auto;
+
+    width: 690px;
+    height: 70px;
+
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.module-search__input {
+    width: 590px;
+    height: inherit;
+    display: block;
+    float: left;
+}
+
+.module-search__button {
+    width: 100px;
+    height: inherit;
+    display: block;
+    float: left;
+}
