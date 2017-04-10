@@ -1,5 +1,16 @@
-.title__text {
+.title__text_size_big {
     color: white;
     font-size: 43px;
     font-weight: 100;
+}
+
+.title__text_size_small {
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.title__link {
+    color: #52d048;
+    text-decoration-style: dotted;
 }

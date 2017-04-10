@@ -1,0 +1,25 @@
+.module-category {
+    overflow: hidden;
+}
+
+.module-category__grid {
+    margin: 50px auto;
+
+    width: 1200px;
+
+    overflow: hidden;
+}
+
+.module-category__item {
+    padding: 10px;
+    box-sizing: border-box;
+
+    width: 25%;
+    min-height: 300px;
+    float: left;
+
+}
+
+.module-category__item:nth-child(4n + 1) {
+    clear: both;
+}

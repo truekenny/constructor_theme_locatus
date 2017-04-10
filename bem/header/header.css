@@ -1,6 +1,7 @@
 .header {
     padding-top: 120px;
 
+    min-width: 1200px;
     height: 600px;
     position: relative;
 
