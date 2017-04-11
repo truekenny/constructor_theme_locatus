@@ -1,0 +1,13 @@
+.about__text {
+    padding: 70px 205px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    width: 1200px;
+
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 1.647;
+}

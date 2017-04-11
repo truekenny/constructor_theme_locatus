@@ -13,6 +13,10 @@
     <link rel="stylesheet" type="text/css" href="bem/input/input.css">
     <link rel="stylesheet" type="text/css" href="bem/button/button.css">
     <link rel="stylesheet" type="text/css" href="bem/category/category.css">
+    <link rel="stylesheet" type="text/css" href="bem/about/about.css">
+    <link rel="stylesheet" type="text/css" href="bem/footer/footer.css">
+    <link rel="stylesheet" type="text/css" href="bem/link/link.css">
+    <link rel="stylesheet" type="text/css" href="bem/link-icon/link-icon.css">
     <link rel="stylesheet" type="text/css" href="bem/module-search/module-search.css">
     <link rel="stylesheet" type="text/css" href="bem/module-category/module-category.css">
 </head>
@@ -71,6 +75,43 @@
                 </div>
             </div>
         <?php endforeach; ?>
+    </div>
+</div>
+
+<div class="about">
+    <div class="about__text">
+        <?= str_repeat("На портале «Локатус» можно получить информацию о любых услугах ", 10); ?>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footer__grid">
+        <div class="footer__item">
+            <div class="footer__text">
+                Локатус – поиск товаров и услуг
+            </div>
+            <div class="footer__text">
+                © 1997–<?= date("Y") ?><br>
+                ООО «БизнесПоделки»
+            </div>
+        </div>
+        <div class="footer__item">
+            <div class="footer__text footer__phone">
+                8 800 456-90-80
+            </div>
+            <div class="footer__text">
+                <a class="link" href="#">info@locatus.com</a>
+            </div>
+        </div>
+        <div class="footer__item">
+            <a href="#" class="link">О проекте</a>
+            <a href="#" class="link footer__cooperation">Сотрудничество</a>
+        </div>
+        <div class="footer__item footer__social">
+            <a href="#" class="link-icon footer__vk"></a>
+            <a href="#" class="link-icon footer__facebook"></a>
+            <a href="#" class="link-icon footer__twitter"></a>
+        </div>
     </div>
 </div>
 
