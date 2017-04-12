@@ -6,19 +6,19 @@
 
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="bem/body/body.css">
-    <link rel="stylesheet" type="text/css" href="bem/header/header.css">
-    <link rel="stylesheet" type="text/css" href="bem/logo/logo.css">
-    <link rel="stylesheet" type="text/css" href="bem/title/title.css">
-    <link rel="stylesheet" type="text/css" href="bem/input/input.css">
-    <link rel="stylesheet" type="text/css" href="bem/button/button.css">
-    <link rel="stylesheet" type="text/css" href="bem/category/category.css">
-    <link rel="stylesheet" type="text/css" href="bem/about/about.css">
-    <link rel="stylesheet" type="text/css" href="bem/footer/footer.css">
-    <link rel="stylesheet" type="text/css" href="bem/link/link.css">
-    <link rel="stylesheet" type="text/css" href="bem/link-icon/link-icon.css">
-    <link rel="stylesheet" type="text/css" href="bem/module-search/module-search.css">
-    <link rel="stylesheet" type="text/css" href="bem/module-category/module-category.css">
+    <link rel="stylesheet" type="text/css" href="bem/start/body/body.css">
+    <link rel="stylesheet" type="text/css" href="bem/start/header/header.css">
+    <link rel="stylesheet" type="text/css" href="bem/start/logo/logo.css">
+    <link rel="stylesheet" type="text/css" href="bem/start/title/title.css">
+    <link rel="stylesheet" type="text/css" href="bem/start/input/input.css">
+    <link rel="stylesheet" type="text/css" href="bem/start/button/button.css">
+    <link rel="stylesheet" type="text/css" href="bem/start/category/category.css">
+    <link rel="stylesheet" type="text/css" href="bem/start/about/about.css">
+    <link rel="stylesheet" type="text/css" href="bem/start/footer/footer.css">
+    <link rel="stylesheet" type="text/css" href="bem/start/link/link.css">
+    <link rel="stylesheet" type="text/css" href="bem/start/link-icon/link-icon.css">
+    <link rel="stylesheet" type="text/css" href="bem/start/module-search/module-search.css">
+    <link rel="stylesheet" type="text/css" href="bem/start/module-category/module-category.css">
 </head>
 <body class="body">
 
