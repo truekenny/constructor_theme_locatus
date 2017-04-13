@@ -55,7 +55,7 @@
         <?php foreach (range(1, 12) as $i): ?>
             <div class="module-category__item category">
                 <h3 class="category__title" style="filter: hue-rotate(<?= rand(-180, 180) ?>deg);">
-                    <a class="category__title-link">
+                    <a class="category__title-link" href="#">
                         Медцентры
                         <?php if (rand(0, 1)): ?>
                             и ночные рестораны
