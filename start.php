@@ -19,6 +19,9 @@
     <link rel="stylesheet" type="text/css" href="bem/start/link-icon/link-icon.css">
     <link rel="stylesheet" type="text/css" href="bem/start/module-search/module-search.css">
     <link rel="stylesheet" type="text/css" href="bem/start/module-category/module-category.css">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
 </head>
 <body class="body">
 
@@ -32,7 +35,7 @@
     <div class="title header__title">
         <h1 class="title__text_size_big">
             Поиск организаций и услуг в
-            <a href="#" class="text_color_green title__link">Москве</a>
+            <a href="#" class="text_color_green title__link js-window_show" data-window="city-choose">Москве</a>
         </h1>
     </div>
 
@@ -114,6 +117,8 @@
         </div>
     </div>
 </div>
+
+<?php require "_window.php"; ?>
 
 </body>
 </html>

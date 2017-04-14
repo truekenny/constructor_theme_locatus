@@ -1,0 +1,43 @@
+.cities-list {
+    padding: 30px 0;
+
+    column-count: 4;
+    font-size: 14px;
+}
+
+.cities-list__line {
+    padding: 8px 0;
+
+    overflow: hidden;
+}
+
+
+.cities-list__line_new-letter {
+    margin-top: 30px;
+}
+
+.cities-list__line:first-child {
+    margin-top: 0;
+}
+
+.cities-list__letter {
+    width: 20%;
+    float: left;
+
+    color: #8E8E8E;
+    visibility: hidden;
+}
+
+.cities-list__line_new-letter .cities-list__letter {
+    visibility: visible;
+}
+
+.cities-list__city {
+    width: 80%;
+    float: left;
+}
+
+.cities-list__link {
+    color: #424242;
+    text-decoration: none;
+}
