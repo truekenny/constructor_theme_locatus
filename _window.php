@@ -3,7 +3,7 @@ require "_var_cities.php";
 ?>
 
 <link rel="stylesheet" type="text/css" href="bem/global/window/window.css">
-<link rel="stylesheet" type="text/css" href="bem/global/cities-list/cities-list.css">
+<link rel="stylesheet" type="text/css" href="bem/global/module-city-choose/module-city-choose.css">
 
 <script type="text/javascript" src="bem/global/window/window.js"></script>
 
@@ -14,7 +14,7 @@ require "_var_cities.php";
         <div class="window__line">
             <div class="window__text_bold">Все города</div>
 
-            <div class="cities-list">
+            <div class="module-city-choose">
                 <?php $firstLetter = ""; ?>
 
                 <?php foreach ($cities as $city): ?>
@@ -26,10 +26,10 @@ require "_var_cities.php";
                         $showFirstLetter = true;
                     endif; ?>
 
-                    <div class="cities-list__line <?= $showFirstLetter ? "cities-list__line_new-letter" : "" ?>">
-                        <div class="cities-list__letter"><?= $firstLetter ?></div>
-                        <div class="cities-list__city">
-                            <a class="cities-list__link" href="#"><?= $city ?></a>
+                    <div class="module-city-choose__line <?= $showFirstLetter ? "module-city-choose__line_new-letter" : "" ?>">
+                        <div class="module-city-choose__letter"><?= $firstLetter ?></div>
+                        <div class="module-city-choose__city">
+                            <a class="module-city-choose__link" href="#"><?= $city ?></a>
                         </div>
                     </div>
                 <?php endforeach; ?>
