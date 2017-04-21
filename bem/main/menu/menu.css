@@ -1,0 +1,159 @@
+.menu {
+    position: relative;
+}
+
+.menu__categories,
+.menu__services {
+    margin: 0;
+    padding: 0;
+
+    width: 255px;
+    display: none;
+    position: absolute;
+
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    list-style-type: none;
+    line-height: 34px;
+    box-shadow: 0 3px 4px #aaa;
+}
+
+.menu__categories {
+    top: 10px;
+    left: 10px;
+
+    z-index: 10;
+}
+
+.menu__switch.js-menu_show + .menu .menu__categories {
+    display: block;
+}
+
+.menu__category {
+    position: relative;
+}
+
+.menu__link {
+    padding-left: 16px;
+    padding-right: 30px;
+
+    width: 100%;
+    display: block;
+
+    background-image: url("arrow_right.png");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #404040;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+/* Хак для сенсорных устройств: возволяет первым косанием выбрать строчку, вторым – открыть ссылку */
+.menu__category > .menu__link:hover {
+}
+
+.menu__category_active > .menu__link,
+.menu__service_active > .menu__link {
+    background-color: #7DC450;
+    background-image: url("arrow_right_white.png");
+    color: #ffffff;
+}
+
+.menu__category:hover > .menu__link,
+.menu__service:hover > .menu__link,
+.menu__more:hover .menu__link {
+    background-color: #DDDDDD;
+    background-image: url("arrow_right.png");
+    color: #404040;
+}
+
+.menu__service .menu__link {
+    background-image: none !important;
+}
+
+.menu__back,
+.menu__current-category {
+    display: none;
+}
+
+.menu__back .menu__link {
+    padding-left: 38px;
+
+    background-image: url("arrow_left.png");
+    background-position: 17px center;
+    background-color: #DDDDDD;
+}
+
+.menu__current-category .menu__link {
+    background-image: url("arrow_right.png");
+    background-color: #DDDDDD;
+}
+
+.menu__services {
+    top: -1px;
+    left: 255px;
+}
+
+.menu__category:hover .menu__services {
+    display: block;
+}
+
+.menu__more .menu__link {
+    height: 45px;
+
+    background-image: url("arrow.png") !important;
+    border-top: 1px solid #eee;
+    line-height: 45px;
+    text-align: right;
+}
+
+.menu__more-text {
+    border-bottom: 1px solid #404040;
+}
+
+.menu__service:nth-child(11) ~ .menu__service,
+.menu__more {
+    display: none;
+}
+
+.menu__service:nth-child(12) ~ .menu__more {
+    display: block;
+}
+
+/* Мобильное меню */
+@media (max-width: 699px) {
+    /* Показать категорию в подменю */
+    .menu__back,
+    .menu__current-category {
+        display: block !important;
+    }
+
+    /* Не показывать виды услуг автоматически */
+    .menu__category:hover .menu__services {
+        display: none;
+    }
+
+    .menu__category.js-menu_mobile-show .menu__services {
+        display: block;
+    }
+
+    /* Позиционирование видов услуг */
+    .menu__category {
+        position: static;
+    }
+
+    .menu__services {
+        left: 0;
+    }
+
+    /* Сокрытие категорий */
+    .menu__categories.js-menu_mobile-hide > .menu__category {
+        height: 0;
+        overflow: hidden;
+    }
+}

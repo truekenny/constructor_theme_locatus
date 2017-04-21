@@ -6,7 +6,8 @@
 
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="bem/start/body/body.css">
+
+    <link rel="stylesheet" type="text/css" href="bem/global/body/body.css">
     <link rel="stylesheet" type="text/css" href="bem/start/header/header.css">
     <link rel="stylesheet" type="text/css" href="bem/start/logo/logo.css">
     <link rel="stylesheet" type="text/css" href="bem/start/title/title.css">
